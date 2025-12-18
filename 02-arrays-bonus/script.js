@@ -13,6 +13,7 @@ console.table(teachers);
 // 4. Verifica se 'Fabio' è presente nell'array teachers
 const teacherToFind = "Fabio";
 let isFabioIn = false;
+
 for (let i = 0; i < teachers.length; i++) {
   console.log(teachers[i]);
   console.log(teacherToFind);

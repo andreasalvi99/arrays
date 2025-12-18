@@ -27,5 +27,13 @@ console.table(teachers);
 const lewisIndex = teachers.indexOf("Lewis");
 console.log(lewisIndex);
 // 8. Verifica se l'array teachers è vuoto
+let isTeachersNull = true;
+
+if (teachers.length > 0) {
+  isTeachersNull = false;
+  console.log("L'elenco è vuoto?", isTeachersNull);
+}
+
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = null;
+const isTeachersEmpty = isTeachersNull;
+console.log(isTeachersEmpty);
