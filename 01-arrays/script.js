@@ -3,9 +3,10 @@ console.table(teachers);
 
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
 // variabile fourthTeacher qui sotto in modo che sia il quarto insegnante elencato nell'array
-
+const fourthTeacher = null;
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
-
+const fifthTeacher = teachers.splice(4, 1, "Patrick");
+console.table(teachers);
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
 const lastTeacher = teachers.pop();
 console.log(lastTeacher);
@@ -23,12 +24,11 @@ console.table(teachers);
 const firstTeacherAdd = teachers.unshift("Sarah");
 console.table(teachers);
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
-const index = teachers.indexOf("Lewis");
-console.log(index);
-
+const lewisIndex = teachers.indexOf("Lewis");
+console.log(lewisIndex);
 // e salvalo nella variabile lewisIndex
-const lewisIndex = null;
 
 // 8. Verifica se l'array teachers è vuoto
+
 // e salva il risultato nella variabile isTeachersEmpty
 const isTeachersEmpty = null;
