@@ -11,6 +11,21 @@ const longNames = null;
 teachers.splice(1, 1);
 console.table(teachers);
 // 4. Verifica se 'Fabio' è presente nell'array teachers
+let isFabioIn = false;
+const teacherToFind = "Fabio";
+
+for (let i = 0; i < teachers.length; i++) {
+  console.log(teachers[i]);
+  console.log(teacherToFind);
+  console.log("Sono la stessa persona?", teachers[i] === teacherToFind);
+
+  if (teachers[i] === teacherToFind) {
+    isFabioIn = true;
+  }
+}
+
+console.log("Insegnante trovato?", isFabioIn);
+
 // e salva il risultato nella variabile isFabioPresent
 const isFabioPresent = null;
 
