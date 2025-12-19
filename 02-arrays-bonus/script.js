@@ -21,7 +21,7 @@ for (let i = 0; i < teachers.length; i++) {
   }
 }
 
-console.log(longNames);
+console.table(longNames);
 // 3. Rimuovi 'Ed' dall'array teachers
 teachers.splice(1, 1);
 console.table(teachers);
